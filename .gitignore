@@ -1,0 +1,4 @@
+# sphinx build directories
+
+.env
+/venv/
