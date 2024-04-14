@@ -1,4 +1,8 @@
-#### Setup
+# Introduction
+
+This repository is to help find the position from desired companies and send alert to your email
+
+## Setup
 
 1.  create virtual env
 
