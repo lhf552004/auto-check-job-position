@@ -44,7 +44,7 @@ def check_job_openings(urls):
 
 def send_email():
     msg = EmailMessage()
-    msg.set_content('New software developer position available in Saint John, NB! Check the careers page.')
+    msg.set_content('New software developer position available! Check the careers page.')
     msg['Subject'] = 'Job Alert: New Position'
     msg['From'] = os.environ.get('EMAIL_USER')
     msg['To'] = os.environ.get('EMAIL_RECEIVER')
